@@ -1,0 +1,2 @@
+const o=(...o)=>o.filter((o=>o)).map((o=>typeof o!=="string"?Object.keys(o).filter((t=>o[t])).join(" "):o)).join(" ");const t=(t,c,n,...$)=>[c,...(n||[]).map((o=>(t===null||t===void 0?void 0:t[o])?`${c}--${s(o)}`:"")).filter((o=>o)),o(...$)].join(" ");const s=o=>o?o.replace(/([a-z])([A-Z])/g,"$1-$2").toLowerCase():"";export{o as c,t as m};
+//# sourceMappingURL=p-41c082d6.js.map

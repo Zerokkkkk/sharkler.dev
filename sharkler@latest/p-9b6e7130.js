@@ -1,0 +1,2 @@
+class t{constructor(t){this.oldValueMap=new Map;this.comp=t}shouldRollback(t,s,i,e){if(s===this.oldValueMap.get(t))return true;return(e!==null&&e!==void 0?e:this.comp.disabled)?this.oldValueMap.set(t,i):false}componentShouldUpdate(t){const s=this.oldValueMap.get(t);if(this.oldValueMap.has(t)){if(this.comp[t]!==s){this.comp[t]=s}else{this.oldValueMap.delete(t)}return false}}}export{t as D};
+//# sourceMappingURL=p-9b6e7130.js.map
