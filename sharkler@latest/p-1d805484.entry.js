@@ -1,2 +1,0 @@
-import{r as e,h as s,H as a}from"./p-a5ccd36d.js";const d=class{constructor(s){e(this,s);this.name=undefined;this.label=undefined;this.disabled=undefined}render(){return s(a,{key:"81b364057494d11b16c89a264cf6e9812371594d",class:"sk-tabs-pane"},s("slot",{key:"ec686f7dad51eba4b2f35a76639dec2c578c6ee6"}))}};export{d as sk_tabs_pane};
-//# sourceMappingURL=p-1d805484.entry.js.map
